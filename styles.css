@@ -1,8 +1,12 @@
+:root{
+    --primary-grey :  #555454;
+}
+
 body{
     margin: 0px;
 }
 .header{
-    background-color: rgb(85, 84, 84);
+    background-color:var(--primary-grey);
     color: aliceblue;
     margin: 0px;
     
@@ -40,7 +44,6 @@ body{
     width: 75%;
     display: flexbox;
     flex-wrap: wrap;
-    flex-basis: auto;
     align-content: space-around;
     
 }
@@ -48,7 +51,7 @@ body{
 .container .content{
     background-color: gray;
     margin: 0rem 1rem 1rem 1rem;
-    
+    flex-wrap: wrap;
     padding: 1rem 1rem 2rem 1rem;
      box-sizing: border-box;
      box-shadow: #24292e 2px 5px 5px,
