@@ -1,2 +1,2 @@
 # css_exercise01
- Feb 13th first exercise neog
+ Showcasing musical instruments by using flex and flexbox .Trying flex properties and making it responsive.
