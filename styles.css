@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+}
+.header{
+    background-color: rgb(85, 84, 84);
+    color: aliceblue;
+    margin: 0px;
+    
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: stretch; */
+    
+}
+.nav .h3{
+    font-style: italic;
+    /* border: 2px solid orange; */
+}
+.nav .h1{
+    display: block;
+    /* border: 2px solid orange; */
+}
+.nav .span-inline{
+    display: block;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    margin: 5rem 2rem 2rem 2rem;
+    /* border: 2px solid orange; */
+}
+
+.container{
+    /* background-color: purple; */
+    color: azure;
+    width: 75%;
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    align-content: space-around;
+    
+}
+
+.container .content{
+    background-color: gray;
+    margin: 0rem 1rem 1rem 1rem;
+    
+    padding: 1rem 1rem 2rem 1rem;
+     box-sizing: border-box;
+     box-shadow: #24292e 2px 5px 5px,
+    #24292e 2px 5px 5px, #24292e 2px 5px 5px;
+    /*box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+    0 0  0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);; */
+    width: 80%;
+    
+    
+}
+.container .content .section .h2{
+    margin: 1rem;
+    text-align: center;
+}
+
+.container .content .section .para{
+    text-align: center;
+}
+
+.container .head{
+    box-sizing: border-box;
+    background-color: brown;
+    /* padding: 0.5rem ; */
+    margin : 1rem 1rem 0rem 1rem;
+    box-shadow: #24292e 2px 5px 5px,
+    #24292e 2px 5px 5px, #24292e 2px 5px 5px;
+    
+    width: 80%;
+}
+
+.container .head .image{
+    width: 100%;
+    height: 30%;
+}
